@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module2LabC.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Morse Coder" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Button x:Name="Dot" Text="." FontSize="30" Clicked="DotClicked"/>
+        <Button x:Name="Dash" Text="-" FontSize="30" Clicked="DashClicked"/>
+        <Button x:Name="Space" Text="" FontSize="30" Clicked="SpaceClicked"/>
+        <Label x:Name="output"/>
+        <Label x:Name="output_code"/>
+
+    </StackLayout>
+
+</ContentPage>
